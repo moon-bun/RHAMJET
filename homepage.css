@@ -1,7 +1,22 @@
 body {
   font-family: "Lato", sans-serif;
 }
-
+#homeVideo {
+  position: fixed;
+  height:100%;
+  width:100%;
+}
+.videoheader {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 85%;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 92px;
+}
 .sidenav {
   height: 100%;
   width: 160px;
@@ -25,8 +40,7 @@ body {
   color: #f1f1f1;
 }
 .main {
-  margin-left: 160px;
+  margin-left: 60px;
   font-size: 28px;
-  padding: 0px 10px;
 }
 /* Code Taken from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed */
