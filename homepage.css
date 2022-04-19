@@ -4,7 +4,7 @@ body {
 #homeVideo {
   position: fixed;
   height:100%;
-  width:100%;
+  width:105%;
 }
 .videoheader {
   position: fixed;
@@ -13,9 +13,9 @@ body {
   color: #f1f1f1;
   width: 85%;
   font-size: 20px;
-  padding-left: 20px;
+  padding-left: 50px;
   padding-right: 20px;
-  margin-left: 92px;
+  margin-left: 80px;
 }
 .sidenav {
   height: 100%;
@@ -40,7 +40,7 @@ body {
   color: #f1f1f1;
 }
 .main {
-  margin-left: 60px;
+  margin-left: 40px;
   font-size: 28px;
 }
 /* Code Taken from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed */
