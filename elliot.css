@@ -29,4 +29,7 @@ body {
   font-size: 28px;
   padding: 0px 10px;
 }
+p{
+  margin-left: 50px;
+}
 /* Code Taken from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed */
