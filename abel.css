@@ -16,15 +16,43 @@ html, body {
   padding-top: 20px;
 }
 
-.sidenav a {
-  padding: 6px 8px 6px 16px;
+.sidenav ul li a {
+  padding: 6px 8px 6px 8px;
   text-decoration: none;
   font-size: 25px;
   color: #818181;
   display: block;
+  list-style: none;
 }
-.sidenav a:hover{
+.sidenav ul li a:hover{
   color: #f1f1f1;
+}
+
+.dropdown {
+  padding: 6px 8px 6px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  list-style: none;
+}
+
+.dropdown span:hover {
+  color: #f1f1f1;
+}
+
+.submenu{
+  display: none;
+  position: fixed;
+  background-color: #111;
+  margin-top: -100px;
+  margin-left: 110px;
+  list-style: none;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.dropdown:hover .submenu {
+  display: block;
 }
 
 .header {
