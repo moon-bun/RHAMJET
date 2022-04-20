@@ -3,6 +3,8 @@ html, body {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  background-color: #D3C0CD
+
 }
 .sidenav {
   height: 100%;
@@ -60,5 +62,48 @@ html, body {
   margin-left: 65px;
   font-size: 28px;
 }
+
+.box{
+    position: relative;
+     /* Make the width of box same as image */
+    background-color: #6CA6C1;
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 69px;
+    top: 0%; /* Adjust this value to move the positioned div up and down */
+    text-align: inherit;
+    width: 72%;
+    color: #FFE66D;
+    /*padding: 5px 5px 5px 5px;*/
+    text-align: center;
+    font-size:30px
+}
+.pictures {
+  background: #004BA8;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width:15%;
+  top:10%;
+  margin-left: auto;
+}
+
+.pictures figure {
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  width: 150px;
+
+}
+
+.pictures figure img {
+  border: 1px solid #004BA8;
+  border-radius: 20%;
+  box-shadow: gray 0 0 10px;
+  width: 150px;
+}
+
 /* Code Taken from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed */
 /* Drop down help from https://www.youtube.com/watch?v=wHFflWvii3M and https://www.w3schools.com/css/css_dropdowns.asp */
