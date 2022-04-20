@@ -1,44 +1,76 @@
-body {
+html, body {
   font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
   background-color: #F6E7CB;
 }
-
 .sidenav {
   height: 100%;
   width: 160px;
-  position: fixed;
+  position: relative;
   z-index: 1;
   top: 0;
   left: 0;
   background-color: #111;
   overflow-x: hidden;
   padding-top: 20px;
+  float: left;
 }
 
-.sidenav a {
-  padding: 6px 8px 6px 16px;
+.sidenav ul li a {
+  padding: 6px 8px 6px 8px;
   text-decoration: none;
   font-size: 25px;
   color: #818181;
   display: block;
+  list-style: none;
 }
-.sidenav a:hover{
+.sidenav ul li a:hover{
   color: #f1f1f1;
 }
+
+.dropdown {
+  padding: 6px 8px 6px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  list-style: none;
+}
+
+.dropdown span:hover {
+  color: #f1f1f1;
+}
+
+.submenu{
+  display: none;
+  position: fixed;
+  background-color: #111;
+  margin-top: -100px;
+  margin-left: 110px;
+  list-style: none;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.dropdown:hover .submenu {
+  display: block;
+}
+
+
 .main {
-  margin-left: 160px;
-  font-size: 20px;
-  padding: 0px 10px;
+  margin-left: 130px;
+  font-size: 28px;
 }
 /* Code Taken from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed */
+/* Drop down help from https://www.youtube.com/watch?v=wHFflWvii3M and https://www.w3schools.com/css/css_dropdowns.asp */
 
 .Jbannerhead {
-  border-radius: 50px 50px 0px 0px;
-  padding: 5px;
+  padding: 2px;
   background-color: #678D58;
   color: White;
   text-align: center;
-  font-size: 28px:
+  font-size: 28px;
+  margin-left: 10px;
 }
 .Jtextbox {
   background-color: #A6C48A;
