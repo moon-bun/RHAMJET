@@ -71,10 +71,10 @@ html, body {
     z-index: 0;
     margin: 0 auto;
     left: 0;
-    right: 69px;
+    right: 75px;
     top: 0%; /* Adjust this value to move the positioned div up and down */
     text-align: inherit;
-    width: 72%;
+    width: 1045px;
     color: #FFE66D;
     /*padding: 5px 5px 5px 5px;*/
     text-align: center;
