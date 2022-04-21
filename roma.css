@@ -68,7 +68,7 @@ html, body {
      /* Make the width of box same as image */
     background-color: #6CA6C1;
     position: absolute;
-    z-index: 999;
+    z-index: 0;
     margin: 0 auto;
     left: 0;
     right: 69px;
