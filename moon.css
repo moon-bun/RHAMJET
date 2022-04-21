@@ -73,13 +73,16 @@ html, body {
 .moonsecondbox .text{
     position: absolute;
     z-index: 999;
-    margin: 0 auto;
+    margin: 100 auto;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 1px;
     left: 0;
     right: 0;
     top: 4%; /* Adjusts positioned text up and down */
     text-align: inherit;
-    width: 85%; /* Sets width of the text */
-    font-size: 20px;
+    width: 76%; /* Sets width of the text */
+    font-size: 19px;
 }
 .main {
   margin-left: 65px;
