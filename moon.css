@@ -63,7 +63,24 @@ html, body {
   margin-left: 90px;
   margin-top: 20px;
 }
-
+.moonsecondbox{
+    position: relative;
+    display: inline-block; /* Makes width box same as image */
+    color:#361F1F;
+    left: 1050px;
+    top: 8px;
+}
+.moonsecondbox .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 4%; /* Adjusts positioned text up and down */
+    text-align: inherit;
+    width: 85%; /* Sets width of the text */
+    font-size: 20px;
+}
 .main {
   margin-left: 65px;
   font-size: 28px;
