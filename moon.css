@@ -56,11 +56,12 @@ html, body {
 }
 
 .moontextbox {
-  background-color: #FFFFFF;
-  box-shadow: 5px 10px #DD9787;
+  background-color: #FFD6C7;
+  box-shadow: 5px 10px #E1B68C;
   font-size: 20px;
-  padding:10px;
+  padding:0px;
   margin-left: 90px;
+  margin-top: 20px;
 }
 
 .main {
