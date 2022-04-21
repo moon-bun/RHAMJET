@@ -64,6 +64,7 @@ html, body {
 
 .main {
   margin-left: 150px;
+  margin-right: 50px;
   font-size: 28px;
   padding: 10px;
 }
@@ -72,4 +73,17 @@ html, body {
 
 .Elliottextbox {
   padding: 10px;
+}
+
+header {
+  background-color: #E07DD9;
+  padding: 10px;
+  margin-left: 20px;
+  box-shadow: 5px 10px #C77EF7;
+
+}
+
+footer {
+  padding: 10px;
+  background-color: #C77EF7;
 }
