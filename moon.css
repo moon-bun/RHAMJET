@@ -79,10 +79,10 @@ html, body {
     padding-right: 1px;
     left: 0;
     right: 0;
-    top: 4%; /* Adjusts positioned text up and down */
+    top: 6%; /* Adjusts positioned text up and down */
     text-align: inherit;
     width: 76%; /* Sets width of the text */
-    font-size: 19px;
+    font-size: 17px;
 }
 .main {
   margin-left: 65px;
