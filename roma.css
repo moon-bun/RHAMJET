@@ -3,7 +3,7 @@ html, body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #D3C0CD
+  background-color: #EF8275
 
 }
 .sidenav {
@@ -66,7 +66,7 @@ html, body {
 .box{
     position: relative;
      /* Make the width of box same as image */
-    background-color: #6CA6C1;
+    background-color: #8A4F7D;
     position: absolute;
     z-index: 0;
     margin: 0 auto;
@@ -75,13 +75,13 @@ html, body {
     top: 0%; /* Adjust this value to move the positioned div up and down */
     text-align: inherit;
     width: 1045px;
-    color: #FFE66D;
+    color: #FFD166;
     /*padding: 5px 5px 5px 5px;*/
     text-align: center;
     font-size:30px
 }
 .pictures {
-  background: #004BA8;
+  background: #A2D3C2;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -94,16 +94,31 @@ html, body {
   margin: auto;
   text-align: center;
   text-transform: uppercase;
-  width: 150px;
+  width: 250px;
 
 }
 
 .pictures figure img {
-  border: 1px solid #004BA8;
+  border: 1px solid #A2D3C2;
   border-radius: 20%;
   box-shadow: gray 0 0 10px;
   width: 150px;
 }
 
+.text{
+    position: relative;
+    background-color: #175676;
+    position: absolute;
+    z-index: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 550px;
+    top: 20%; /* Adjust this value to move the positioned div up and down */
+    text-align: inherit;
+    width: 500px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    font-size:30px
+}
 /* Code Taken from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed */
 /* Drop down help from https://www.youtube.com/watch?v=wHFflWvii3M and https://www.w3schools.com/css/css_dropdowns.asp */
