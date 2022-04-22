@@ -26,7 +26,7 @@ html, body {
   display: block;
   list-style: none;
 }
-.sidenav ul a:hover{
+.sidenav ul li a:hover{
   color: #f1f1f1;
 }
 
@@ -47,7 +47,7 @@ html, body {
   display: none;
   position: fixed;
   background-color: #111;
-  margin-top: -100px;
+  margin-top: -60px;
   margin-left: 110px;
   list-style: none;
   border-radius: 0px 15px 15px 0px;
@@ -57,14 +57,13 @@ html, body {
   display: block;
 }
 
-
 .main {
   margin-left: 65px;
   font-size: 28px;
 }
 
 .box{
-    position: relative;
+    position: fixed;
      /* Make the width of box same as image */
     background-color: #8A4F7D;
     position: absolute;
@@ -106,7 +105,7 @@ html, body {
 }
 
 .text{
-    position: relative;
+    position: fixed;
     background-color: #175676;
     position: absolute;
     z-index: 0;
@@ -120,5 +119,21 @@ html, body {
     text-align: center;
     font-size:30px
 }
+.text2{
+    position: fixed;
+    background-color: #175676;
+    position: absolute;
+    z-index: 0;
+    margin: 0 auto;
+    left: 400px;
+    right: 0;
+    top: 60%; /* Adjust this value to move the positioned div up and down */
+    text-align: inherit;
+    width: 500px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    font-size:30px
+}
+
 /* Code Taken from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed */
 /* Drop down help from https://www.youtube.com/watch?v=wHFflWvii3M and https://www.w3schools.com/css/css_dropdowns.asp */

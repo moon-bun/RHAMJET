@@ -35,7 +35,7 @@ html, body {
 .sidenav ul a {
   padding: 6px 8px 6px 8px;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 25px;
   color: #818181;
   display: block;
   list-style: none;
@@ -69,32 +69,6 @@ html, body {
 
 .dropdown:hover .submenu {
   display: block;
-}
-
-/*.sidenav ul:hover .submenu{
-  display: block;
-  position: fixed;
-  background-color: #111;
-  margin-top: -100px;
-  margin-left: 120px;
-}*/
-
-#homeVideo {
-  position: fixed;
-  height:100%;
-  width:100%;
-}
-
-.videoheader {
-  position: fixed;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 85%;
-  font-size: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: 70px;
 }
 
 .main {
