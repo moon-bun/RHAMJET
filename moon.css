@@ -75,6 +75,7 @@ html, body {
     right: 15px;
     top: 150px;
 }
+
 .moonsecondbox .text{
     position: absolute;
     z-index: 999;
@@ -87,6 +88,21 @@ html, body {
     width: 76%; /* Sets width of the text */
     font-size: 17px;
 }
+.moonsecondbox .text .color{
+  position: absolute;
+  z-index: 999;
+  margin: 100 auto;
+  padding: 10px;
+  padding-left: 1px;
+  padding-right: 1px;
+  top: 50%; /* Adjusts positioned text up and down */
+  text-align: inherit;
+  width: 85%; /* Sets width of the text */
+  font-size: 17px;
+  color: #CDCDCD
+
+}
+
 .main {
   margin-left: 65px;
   font-size: 28px;
