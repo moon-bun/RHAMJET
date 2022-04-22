@@ -56,12 +56,17 @@ html, body {
 }
 
 .moontextbox {
-  background-color: #FFD6C7;
-  box-shadow: 5px 10px #E1B68C;
+  position: fixed;
+  display: inline-block;
+}
+.moontextbox .text{
+  position: absolute;
+  z-index: 999;
+  margin: 100 auto;
+  top: 6%; /* Adjusts positioned text up and down */
+  text-align: inherit;
+  width: 76%; /* Sets width of the text */
   font-size: 20px;
-  padding:0px;
-  margin-left: 90px;
-  margin-top: 20px;
 }
 .moonsecondbox{
     position: fixed;
