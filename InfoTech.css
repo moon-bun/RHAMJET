@@ -1,0 +1,105 @@
+html, body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#homeVideo {
+  position: fixed;
+  height:100%;
+  width:105%;
+}
+.videoheader {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 85%;
+  font-size: 20px;
+  padding-left: 50px;
+  padding-right: 20px;
+  margin-left: 80px;
+}
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav ul a {
+  padding: 6px 8px 6px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  list-style: none;
+}
+.sidenav ul li a:hover{
+  color: #f1f1f1;
+}
+
+.dropdown {
+  padding: 6px 8px 6px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  list-style: none;
+}
+
+.dropdown span:hover {
+  color: #f1f1f1;
+}
+
+.submenu{
+  display: none;
+  position: fixed;
+  background-color: #111;
+  margin-top: -60px;
+  margin-left: 110px;
+  list-style: none;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.dropdown:hover .submenu {
+  display: block;
+}
+
+/*.sidenav ul:hover .submenu{
+  display: block;
+  position: fixed;
+  background-color: #111;
+  margin-top: -100px;
+  margin-left: 120px;
+}*/
+
+#homeVideo {
+  position: fixed;
+  height:100%;
+  width:100%;
+}
+
+.videoheader {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 85%;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 70px;
+}
+
+.main {
+  margin-left: 80px;
+  font-size: 28px;
+}
+/* Code Taken from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed */
+/* Drop down help from https://www.youtube.com/watch?v=wHFflWvii3M and https://www.w3schools.com/css/css_dropdowns.asp */
