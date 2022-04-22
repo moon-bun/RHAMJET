@@ -63,7 +63,7 @@ html, body {
 }
 
 .box{
-    position: relative;
+    position: fixed;
      /* Make the width of box same as image */
     background-color: #8A4F7D;
     position: absolute;
@@ -105,7 +105,7 @@ html, body {
 }
 
 .text{
-    position: relative;
+    position: fixed;
     background-color: #175676;
     position: absolute;
     z-index: 0;
@@ -113,6 +113,21 @@ html, body {
     left: 0;
     right: 550px;
     top: 20%; /* Adjust this value to move the positioned div up and down */
+    text-align: inherit;
+    width: 500px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    font-size:30px
+}
+.text2{
+    position: fixed;
+    background-color: #175676;
+    position: absolute;
+    z-index: 0;
+    margin: 0 auto;
+    left: 400px;
+    right: 0;
+    top: 60%; /* Adjust this value to move the positioned div up and down */
     text-align: inherit;
     width: 500px;
     padding: 10px 10px 10px 10px;
