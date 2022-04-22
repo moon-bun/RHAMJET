@@ -64,11 +64,11 @@ html, body {
   margin-top: 20px;
 }
 .moonsecondbox{
-    position: relative;
+    position: fixed;
     display: inline-block; /* Makes width box same as image */
     color:#361F1F;
-    left: 1050px;
-    top: 8px;
+    right: 15px;
+    top: 150px;
 }
 .moonsecondbox .text{
     position: absolute;
@@ -77,8 +77,6 @@ html, body {
     padding: 10px;
     padding-left: 50px;
     padding-right: 1px;
-    left: 0;
-    right: 0;
     top: 6%; /* Adjusts positioned text up and down */
     text-align: inherit;
     width: 76%; /* Sets width of the text */
