@@ -2,28 +2,11 @@ html, body {
   font-family: "Lato", sans-serif;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-}
-#homeVideo {
-  position: fixed;
-  height:100%;
-  width:105%;
-}
-.videoheader {
-  position: fixed;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 85%;
-  font-size: 20px;
-  padding-left: 50px;
-  padding-right: 20px;
-  margin-left: 80px;
 }
 .sidenav {
   height: 100%;
   width: 160px;
-  position: absolute;
+  position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
@@ -79,27 +62,31 @@ html, body {
   margin-left: 120px;
 }*/
 
-#homeVideo {
-  position: fixed;
-  height:100%;
-  width:100%;
-}
-
-.videoheader {
-  position: fixed;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 85%;
-  font-size: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: 70px;
-}
 
 .main {
-  margin-left: 80px;
-  font-size: 28px;
+  margin-left: 180px;
+  font-size: 18px;
 }
 /* Code Taken from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed */
 /* Drop down help from https://www.youtube.com/watch?v=wHFflWvii3M and https://www.w3schools.com/css/css_dropdowns.asp */
+
+#toc_container {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 1em;
+    padding-right: 20px;
+    width: auto;
+}
+
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
+/* TOC Code taken from https://www.tipsandtricks-hq.com/simple-table-of-contents-toc-using-pure-html-and-css-code-9217*/
