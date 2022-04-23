@@ -17,7 +17,7 @@ html, body {
   padding-top: 20px;
 }
 
-.sidenav ul li a {
+.sidenav ul a {
   padding: 6px 8px 6px 8px;
   text-decoration: none;
   font-size: 25px;
@@ -25,7 +25,7 @@ html, body {
   display: block;
   list-style: none;
 }
-.sidenav ul li a:hover{
+.sidenav ul a:hover{
   color: #f1f1f1;
 }
 
@@ -46,7 +46,7 @@ html, body {
   display: none;
   position: fixed;
   background-color: #111;
-  margin-top: -100px;
+  margin-top: -60px;
   margin-left: 110px;
   list-style: none;
   border-radius: 0px 15px 15px 0px;
@@ -60,7 +60,6 @@ html, body {
   height: 20%;
   text-align: center;
   background-color: rgb(0, 9, 134);
-  background-blend-mode: multiply;
   color: white;
   font-size: 30px;
   position: relative;
@@ -72,7 +71,8 @@ html, body {
 }
 
 .main img{
-  margin-left: 600px;
+  margin-top: 3%;
+  margin-left: 400px;
   padding: 0px 10px;
 }
 
@@ -85,4 +85,73 @@ html, body {
   position: relative;
   text-align: left;
 }
+
+.intro p{
+  margin-top: -10%;
+  margin-left: 700px;
+  margin-right: 550px;
+  font-family: Arial;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  text-align: left;
+}
+
+.intro h2 {
+  margin-top: -3%;
+  margin-left: 700px;
+  margin-right: 250px;
+  font-family: Arial;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  text-align: left;
+}
+
+.moreAboutMe h2{
+  margin-top: 6%;
+  margin-left: 600px;
+  margin-right: 250px;
+  font-family: Arial;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  text-align: left;
+}
+
+.moreAboutMe h3{
+  margin-top: 10%;
+  margin-left: 650px;
+  margin-right: 250px;
+  font-family: Arial;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  text-align: left;
+}
+
+.moreAboutMe p{
+  margin-top: 5%;
+  margin-left: 300px;
+  margin-right: 350px;
+  font-family: Arial;
+  font-size: 23px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  text-align: left;
+}
+
+.moreAboutMe h4{
+  margin-top: 20%;
+  margin-left: 600px;
+  margin-right: 250px;
+  font-family: Arial;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  text-align: left;
+}
+
+
+
 /* Code Taken from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed */

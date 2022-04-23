@@ -2,7 +2,6 @@ html, body {
   font-family: "Lato", sans-serif;
   margin: 0;
   padding: 0;
-  overflow: hidden;
 }
 .sidenav {
   height: 100%;
@@ -56,11 +55,51 @@ html, body {
 }
 
 .moontextbox {
-  background-color: #FFFFFF;
-  box-shadow: 5px 10px #DD9787;
+  position: fixed;
+  display: inline-block;
+}
+.moontextbox .text{
+  position: absolute;
+  z-index: 999;
+  margin: 100 auto;
+  top: 6%; /* Adjusts positioned text up and down */
+  text-align: inherit;
+  width: 76%; /* Sets width of the text */
   font-size: 20px;
-  padding:10px;
-  margin-left: 90px;
+}
+.moonsecondbox{
+    position: fixed;
+    display: inline-block; /* Makes width box same as image */
+    color:#361F1F;
+    right: 15px;
+    top: 150px;
+}
+
+.moonsecondbox .text{
+    position: absolute;
+    z-index: 999;
+    margin: 100 auto;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 1px;
+    top: 6%; /* Adjusts positioned text up and down */
+    text-align: inherit;
+    width: 76%; /* Sets width of the text */
+    font-size: 17px;
+}
+.moonsecondbox .text .color{
+  position: absolute;
+  z-index: 999;
+  margin: 100 auto;
+  padding: 10px;
+  padding-left: 1px;
+  padding-right: 1px;
+  top: 50%; /* Adjusts positioned text up and down */
+  text-align: inherit;
+  width: 85%; /* Sets width of the text */
+  font-size: 17px;
+  color: #CDCDCD
+
 }
 
 .main {

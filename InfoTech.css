@@ -2,7 +2,6 @@ html, body {
   font-family: "Lato", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #F6E7CB;
 }
 .sidenav {
   height: 100%;
@@ -55,25 +54,39 @@ html, body {
   display: block;
 }
 
+/*.sidenav ul:hover .submenu{
+  display: block;
+  position: fixed;
+  background-color: #111;
+  margin-top: -100px;
+  margin-left: 120px;
+}*/
+
 
 .main {
-  margin-left: 130px;
-  font-size: 28px;
+  margin-left: 180px;
+  font-size: 18px;
 }
 /* Code Taken from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed */
 /* Drop down help from https://www.youtube.com/watch?v=wHFflWvii3M and https://www.w3schools.com/css/css_dropdowns.asp */
 
-.Jbannerhead {
-  padding: 2px;
-  background-color: #678D58;
-  color: White;
-  text-align: center;
-  font-size: 28px;
-  margin-left: 10px;
+#toc_container {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 1em;
+    padding-right: 20px;
+    width: auto;
 }
-.Jtextbox {
-  background-color: #A6C48A;
-  box-shadow: 5px 10px #DD9787;
-  font-size: 20px;
-  padding:10px;
+
+.toc_title {
+    font-weight: 700;
+    text-align: center;
 }
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
+/* TOC Code taken from https://www.tipsandtricks-hq.com/simple-table-of-contents-toc-using-pure-html-and-css-code-9217*/
