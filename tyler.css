@@ -6,7 +6,7 @@ html, body {
 .sidenav {
   height: 100%;
   width: 160px;
-  position: relative;
+  position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
@@ -15,7 +15,7 @@ html, body {
   padding-top: 20px;
 }
 
-.sidenav ul li a {
+.sidenav ul a {
   padding: 6px 8px 6px 8px;
   text-decoration: none;
   font-size: 25px;
@@ -44,7 +44,7 @@ html, body {
   display: none;
   position: fixed;
   background-color: #111;
-  margin-top: -100px;
+  margin-top: -60px;
   margin-left: 110px;
   list-style: none;
   border-radius: 0px 15px 15px 0px;
@@ -54,10 +54,50 @@ html, body {
   display: block;
 }
 
-
 .main {
-  margin-left: 65px;
-  font-size: 28px;
+  margin-left: 200px;
+  margin-right: 50px;
+  text-align: center;
+  background-color: #FC7A57;
+  font-size: 25px;
+  border-width:10px;
+  border-style: solid;
+  border-color: #FAF3DD;
+  border-radius: 15px;
+  color: #f4f1d6;
+  padding: 25px;
+  overflow: auto;
+}
+
+.heady{
+  padding: 70px;
+  width: auto;
+  background-image:url(TestImages/Tylerimg/Toppa.jpg);
+  background-size:cover;
+  color:white;
+  text-align: center;
+  font-size: 35px;
+  margin-left: 160px;
+  border-bottom: 15px solid #FAF3DD;
+}
+
+.piccy{
+  float: left;
+  padding: 5px;
+  clear-float
+}
+
+.picbox {
+  margin-left: 200px;
+  margin-right: 50px;
+  background-color: #FC7A57;
+  border-width:10px;
+  border-style: solid;
+  border-color: #FAF3DD;
+  border-radius: 15px;
+  color: #f4f1d6;
+  height: auto;
+  overflow: auto;
 }
 /* Code Taken from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed */
 /* Drop down help from https://www.youtube.com/watch?v=wHFflWvii3M and https://www.w3schools.com/css/css_dropdowns.asp */
