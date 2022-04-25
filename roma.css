@@ -65,7 +65,7 @@ html, body {
     position: fixed;
      /* Make the width of box same as image */
     background-color: #8A4F7D;
-    position: absolute;
+    position: fixed;
     z-index: 0;
     margin: 0 auto;
     left: 0;
