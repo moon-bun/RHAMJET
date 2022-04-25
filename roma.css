@@ -61,23 +61,6 @@ html, body {
   font-size: 28px;
 }
 
-.box{
-    position: fixed;
-     /* Make the width of box same as image */
-    background-color: #8A4F7D;
-    position: fixed;
-    z-index: 0;
-    margin: 0 auto;
-    left: 0;
-    right: 75px;
-    top: 0%; /* Adjust this value to move the positioned div up and down */
-    text-align: inherit;
-    width: 1045px;
-    color: #FFD166;
-    /*padding: 5px 5px 5px 5px;*/
-    text-align: center;
-    font-size:30px
-}
 .pictures {
   background: #A2D3C2;
   padding: 10px;
@@ -111,7 +94,7 @@ html, body {
     margin: 0 auto;
     left: 0;
     right: 550px;
-    top: 20%; /* Adjust this value to move the positioned div up and down */
+    top: 22%; /* Adjust this value to move the positioned div up and down */
     text-align: inherit;
     width: 500px;
     padding: 10px 10px 10px 10px;
@@ -133,6 +116,35 @@ html, body {
     text-align: center;
     font-size:30px
 }
-
+.text3{
+    position: fixed;
+    background-color: #8A4F7D;
+    position: absolute;
+    z-index: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 77px;
+    top: 0%; /* Adjust this value to move the positioned div up and down */
+    text-align: inherit;
+    width: 1025px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    font-size:30px
+}
+.text4{
+    position: fixed;
+    background-color: #175676;
+    position: absolute;
+    z-index: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 550px;
+    top: 95%; /* Adjust this value to move the positioned div up and down */
+    text-align: inherit;
+    width: 500px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    font-size:30px
+}
 /* Code Taken from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed */
 /* Drop down help from https://www.youtube.com/watch?v=wHFflWvii3M and https://www.w3schools.com/css/css_dropdowns.asp */
