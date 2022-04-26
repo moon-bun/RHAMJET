@@ -3,6 +3,10 @@ html, body {
   margin: 0;
   padding: 0;
   background-color: #1b1b1b;
+  overflow: auto;
+  resize: both;
+  height: 100%;
+  width: 100%;
 }
 
 .sidenav {
@@ -68,6 +72,7 @@ html, body {
 .main {
   margin-left: 160px;
   padding: 0px 10px;
+  max-width: 1000px;
 }
 
 .main img{
@@ -87,8 +92,8 @@ html, body {
 }
 
 .intro p{
-  margin-top: -17%;
-  margin-left: 40%;
+  margin-top: -3%;
+  margin-left: 35%;
   margin-right: 20%;
   font-family: Arial;
   font-size: 15px;
@@ -98,13 +103,13 @@ html, body {
 }
 
 .intro h2 {
-  margin-top: -5%;
+  margin-top: -25%;
   margin-left: 34%;
   margin-right: 250px;
   font-family: Arial;
   font-size: 40px;
   color: rgb(255, 255, 255);
-  position: absolute;
+  position: relative;
   text-align: left;
 }
 
@@ -115,7 +120,7 @@ html, body {
   font-family: Arial;
   font-size: 40px;
   color: rgb(255, 255, 255);
-  position: absolute;
+  position: relative;
   text-align: left;
 }
 
@@ -126,7 +131,7 @@ html, body {
   font-family: Arial;
   font-size: 30px;
   color: rgb(255, 255, 255);
-  position: absolute;
+  position: relative;
   text-align: left;
 }
 
@@ -137,18 +142,18 @@ html, body {
   font-family: Arial;
   font-size: 20px;
   color: rgb(255, 255, 255);
-  position: absolute;
+  position: relative;
   text-align: left;
 }
 
 .moreAboutMe h4{
-  margin-top: 30%;
+  margin-top: 5%;
   margin-left: 25%;
   margin-right: 250px;
   font-family: Arial;
   font-size: 30px;
   color: rgb(255, 255, 255);
-  position: absolute;
+  position: relative;
   text-align: left;
 }
 
