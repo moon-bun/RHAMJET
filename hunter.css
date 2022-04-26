@@ -1,7 +1,8 @@
 html, body {
   font-family: "Lato", sans-serif;
-  margin: 0;
+  margin-left: 90px;
   padding: 0;
+  background: lightgray;;
 }
 .sidenav {
   height: 100%;
@@ -58,6 +59,21 @@ html, body {
 .main {
   margin-left: 65px;
   font-size: 28px;
+}
+
+.main h1{
+    color: darkslategray;
+    font-size: 50px;
+    font-family: 'Source Serif 4', sans-serif;
+}
+
+.main p{
+  font-size: 20px;
+  color: slategray;
+  text-align: justify;
+  font-family: 'bitter';
+  margin-left: 50px;
+  padding-right:50px;
 }
 /* Code Taken from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed */
 /* Drop down help from https://www.youtube.com/watch?v=wHFflWvii3M and https://www.w3schools.com/css/css_dropdowns.asp */
