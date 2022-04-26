@@ -2,7 +2,17 @@ html, body {
   font-family: "Lato", sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #BF59D9;
+  background: radial-gradient(
+    circle, #F2D3F2, #BD6CBB
+    );
 }
+
+/*body {
+  background-color: #9C8BF0;
+  clip-path: polygon(0 0, 18% 0, 100% 77%, 100% 100%, 0 100%, 0% 50%);
+}*/
+
 .sidenav {
   height: 100%;
   width: 160px;
@@ -77,13 +87,33 @@ header {
   padding: 10px;
   margin: 20px;
   box-shadow: 5px 10px #C77EF7;
-
+  animation: blink 10s infinite;
 }
 
 footer {
   padding: 10px;
   background-color: #C77EF7;
 }
+
+@keyframes blink {
+  0% {
+    background: #D169CE;
+  }
+  25% {
+    background: #628AD9;
+  }
+  50% {
+    background: #61C27C;
+  }
+  75% {
+    background: #D9CB62;
+  }
+  100% {
+    background: #CF7D5D;
+  }
+}
+
+/*code taken from https://www.youtube.com/watch?v=wfaDzSL6ll0*/
 
 a:link, a:visited {
   color: blue
@@ -96,3 +126,16 @@ a:hover {
 a:active {
   color: red
 }
+
+h1 {
+  color: #774DD1
+}
+
+/*.backgroundstuff {
+  background-color: #9C8BF0;
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(0 0, 18% 0, 100% 77%, 100% 100%, 0 100%, 0% 50%);
+  position: absolute;
+  z-index: -1;
+}*/
