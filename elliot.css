@@ -55,11 +55,11 @@ html, body {
 }
 
 .Etextbox {
-  background-color: #FFFFFF;
+  background-color: #F7CAE4;
   box-shadow: 5px 10px #DD9787;
   font-size: 20px;
   padding:10px;
-  margin-left: 90px;
+  margin: 90px;
 }
 
 .main {
@@ -71,14 +71,11 @@ html, body {
 /* Code Taken from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed */
 /* Drop down help from https://www.youtube.com/watch?v=wHFflWvii3M and https://www.w3schools.com/css/css_dropdowns.asp */
 
-.Elliottextbox {
-  padding: 10px;
-}
 
 header {
   background-color: #E07DD9;
   padding: 10px;
-  margin-left: 20px;
+  margin: 20px;
   box-shadow: 5px 10px #C77EF7;
 
 }
@@ -86,4 +83,16 @@ header {
 footer {
   padding: 10px;
   background-color: #C77EF7;
+}
+
+a:link, a:visited {
+  color: blue
+}
+
+a:hover {
+  color:green
+}
+
+a:active {
+  color: red
 }
