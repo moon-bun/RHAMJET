@@ -64,14 +64,14 @@ html, body {
   margin: 100 auto;
   top: 6%; /* Adjusts positioned text up and down */
   text-align: inherit;
-  width: 76%; /* Sets width of the text */
+  width: 105%; /* Sets width of the text */
   font-size: 20px;
 }
 .moonsecondbox{
     position: fixed;
     display: inline-block; /* Makes width box same as image */
     color:#361F1F;
-    right: 15px;
+    right: 700px;
     top: 150px;
 }
 
@@ -84,7 +84,7 @@ html, body {
     padding-right: 1px;
     top: 6%; /* Adjusts positioned text up and down */
     text-align: inherit;
-    width: 76%; /* Sets width of the text */
+    width: 85%; /* Sets width of the text */
     font-size: 17px;
 }
 .moonsecondbox .text .color{
@@ -100,6 +100,40 @@ html, body {
   font-size: 17px;
   color: #E1DCD9
 
+}
+
+.moonthirdbox{
+    position: fixed;
+    display: inline-block; /* Makes width box same as image */
+    color:#361F1F;
+    right: 15px;
+    top: 150px;
+}
+
+.moonthirdbox .text{
+    position: absolute;
+    z-index: 999;
+    margin: 100 auto;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 1px;
+    top: 6%; /* Adjusts positioned text up and down */
+    text-align: inherit;
+    width: 80%; /* Sets width of the text */
+    font-size: 17px;
+}
+.moonthirdbox .text .color{
+  position: absolute;
+  z-index: 999;
+  margin: 100 auto;
+  padding: 10px;
+  padding-left: 1px;
+  padding-right: 1px;
+  top: 50%; /* Adjusts positioned text up and down */
+  text-align: inherit;
+  width: 85%; /* Sets width of the text */
+  font-size: 17px;
+  color: #E1DCD9
 }
 
 .main {
