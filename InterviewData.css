@@ -2,6 +2,7 @@ html, body {
   font-family: "Lato", sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #f7b733;
 }
 .sidenav {
   height: 100%;
@@ -67,6 +68,32 @@ html, body {
   margin-left: 180px;
   font-size: 18px;
 }
+
+.Analy {
+  margin-right: 50px;
+  font-size: 18px;
+  text-align: center;
+  background-color: #fc4a14;
+  border-width:10px;
+  border-style: solid;
+  border-color: #4abdac;
+  border-radius: 15px;
+}
+.intvid{
+  text-align: center;
+}
+
+.heady{
+  padding: 40px;
+  width: auto;
+  color:white;
+  text-align: center;
+  font-size: 35px;
+  margin-left: 160px;
+  background-color: #fc4a14;
+  border-bottom: 15px solid #4abdac;
+}
+
 /* Code Taken from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed */
 /* Drop down help from https://www.youtube.com/watch?v=wHFflWvii3M and https://www.w3schools.com/css/css_dropdowns.asp */
 
