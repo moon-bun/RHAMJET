@@ -2,7 +2,7 @@ html, body {
   font-family: "Lato", sans-serif;
   margin-left: 90px;
   padding: 0;
-  background: lightgray;;
+  background: lightgrey;
 }
 .sidenav {
   height: 100%;
@@ -55,9 +55,12 @@ html, body {
   display: block;
 }
 
+.header{
+  background-color:#fedd3c;
+}
 
 .main {
-  margin-left: 65px;
+  margin-left: 60px;
   font-size: 28px;
 }
 
@@ -104,6 +107,17 @@ html, body {
     color: cadetblue;
 }
 
+.background{
+  padding-top:20px;
+}
+
+.interest{
+  padding-top:20px;
+}
+
+.personality{
+  padding-top:20px;
+}
 
 /* Code Taken from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed */
 /* Drop down help from https://www.youtube.com/watch?v=wHFflWvii3M and https://www.w3schools.com/css/css_dropdowns.asp */
