@@ -90,6 +90,20 @@ html, body {
   padding-right:50px;
 }
 
+.main a:link{
+    text-decoration: none;
+    font-size:20px;
+    color: cadetblue;
+}
+
+.main a:hover{
+    text-decoration: underline;
+}
+
+.main a:visited{
+    color: cadetblue;
+}
+
 
 /* Code Taken from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed */
 /* Drop down help from https://www.youtube.com/watch?v=wHFflWvii3M and https://www.w3schools.com/css/css_dropdowns.asp */

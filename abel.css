@@ -102,6 +102,18 @@ html, body {
   text-align: left;
 }
 
+.intro h6{
+  margin-top: -20%;
+  margin-left: 35%;
+  margin-right: 20%;
+  font-family: Arial;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  text-align: left;
+  font-weight: normal;
+}
+
 .intro h2 {
   margin-top: -25%;
   margin-left: 34%;
@@ -140,7 +152,7 @@ html, body {
   margin-left: 9%;
   margin-right: 13%;
   font-family: Arial;
-  font-size: 20px;
+  font-size: 15px;
   color: rgb(255, 255, 255);
   position: relative;
   text-align: left;
