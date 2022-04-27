@@ -84,6 +84,8 @@ html, body {
 
 header {
   background-color: #E07DD9;
+  position: center;
+  width: 1000px;
   padding: 10px;
   margin: 20px;
   box-shadow: 5px 10px #C77EF7;
@@ -127,8 +129,20 @@ a:active {
   color: red
 }
 
-h1 {
-  color: #774DD1
+h1, h2 {
+  color: #774DD1;
+  text-align: center
+}
+
+.imagebox {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.imagebox2 {
+  margin: 50px;
+  background-color: blue;
+  background-blend-mode: lighten;
 }
 
 /*.backgroundstuff {
