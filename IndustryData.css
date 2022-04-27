@@ -57,7 +57,21 @@ html, body {
 
 .main {
   margin-left: 160px;
-  font-size: 28px;
+  font-size: 18px;
 }
 /* Code Taken from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed */
 /* Drop down help from https://www.youtube.com/watch?v=wHFflWvii3M and https://www.w3schools.com/css/css_dropdowns.asp */
+
+details > summary {
+  padding: 4px;
+  width: 98%;
+  background-color: #74E7DB;
+  border: 1px solid black;
+  cursor: pointer;
+}
+details > p {
+  background-color: #2EDCCA;
+  padding: 4px;
+  margin: 0;
+  width: 98%;
+}
