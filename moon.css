@@ -71,7 +71,7 @@ html, body {
     position: fixed;
     display: inline-block; /* Makes width box same as image */
     color:#361F1F;
-    right: 700px;
+    left: 200px;
     top: 150px;
 }
 
