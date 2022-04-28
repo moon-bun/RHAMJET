@@ -70,23 +70,58 @@ html, body {
 /* Code Taken from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed */
 /* Drop down help from https://www.youtube.com/watch?v=wHFflWvii3M and https://www.w3schools.com/css/css_dropdowns.asp */
 
-#toc_container {
-    background: #f9f9f9 none repeat scroll 0 0;
-    border: 1px solid #aaa;
-    display: table;
-    font-size: 20px;
-    margin-top: 5px;
-    margin-bottom: 1em;
-    padding-right: 20px;
-    width: auto;
+.header{
+  position:sticky;
+  top:0;
 }
 
-.toc_title {
-    font-weight: 700;
-    text-align: center;
+
+nav li{
+    list-style: none;
+    margin-left: 30px;
+    margin-right:10px;
+    float:left;
+    padding;10px;
+    font-size:25px;
+    color:forestgreen;
+}
+nav a:link{
+  text-decoration: none;
+  background-color: white;
+  display: block;
+
+}
+nav a:hover{
+    text-decoration: underline;
+}
+nav a:visited{
+    color: forestgreen;
+}
+section{
+  padding-top: 50px;
 }
 
-#toc_container li, #toc_container ul, #toc_container ul li{
-    list-style: outside none none !important;
+h2{
+  font-size:30px;
+  text-align: center;
 }
+
+h5{
+  font-size: 15px;
+}
+
+th{
+  text-align: center;
+  padding:10px;
+  background-color: forestgreen;
+}
+
+td{
+  padding:5px;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+
 /* TOC Code taken from https://www.tipsandtricks-hq.com/simple-table-of-contents-toc-using-pure-html-and-css-code-9217*/

@@ -2,7 +2,7 @@ html, body {
   font-family: "Lato", sans-serif;
   margin-left: 90px;
   padding: 0;
-  background: lightgrey;
+  background: #FAFAD2;
 }
 .sidenav {
   height: 100%;
@@ -56,12 +56,12 @@ html, body {
 }
 
 .header{
-  background-color:#fedd3c;
+  background-color:#FFD700;
 }
 
 .main {
   margin-left: 60px;
-  font-size: 28px;
+  font-size: 30px;
 }
 
 .main h1{
