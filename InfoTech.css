@@ -83,7 +83,7 @@ nav li{
     float:left;
     padding;10px;
     font-size:25px;
-    color:forestgreen;
+    color:darkgreen;
 }
 nav a:link{
   text-decoration: none;
@@ -95,15 +95,21 @@ nav a:hover{
     text-decoration: underline;
 }
 nav a:visited{
-    color: forestgreen;
+    color: darkgreen;
 }
 section{
   padding-top: 50px;
 }
 
 h2{
-  font-size:30px;
+  font-size:40px;
   text-align: center;
+  border-color: darkgreen;
+  padding-top:20px;
+}
+h4{
+  background-color: forestgreen;
+  padding:5px;
 }
 
 h5{
