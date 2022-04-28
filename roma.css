@@ -71,7 +71,9 @@ html, body {
   flex-direction: column;
   width:15%;
   top:10%;
-  margin-left: auto;
+  margin-left: 85%;
+  margin-top: -90%;
+  position: fixed;
 }
 
 .pictures figure {
@@ -95,9 +97,9 @@ html, body {
     position: relative;
     z-index: 0;
     margin: 0 auto;
-    left: 0;
-    right: 550px;
-    top: 22%; /* Adjust this value to move the positioned div up and down */
+    left: 0%;
+    right: 0;
+    top: 5%; /* Adjust this value to move the positioned div up and down */
     text-align: inherit;
     width: 500px;
     padding: 10px 10px 10px 10px;
@@ -110,9 +112,9 @@ html, body {
     position: relative;
     z-index: 0;
     margin: 0 auto;
-    left: 400px;
+    left: 0;
     right: 0;
-    top: 60%; /* Adjust this value to move the positioned div up and down */
+    top: 10%; /* Adjust this value to move the positioned div up and down */
     text-align: inherit;
     width: 500px;
     padding: 10px 10px 10px 10px;
@@ -126,13 +128,14 @@ html, body {
     z-index: 0;
     margin: 0 auto;
     left: 0;
-    right: 77px;
+    right: 0;
     top: 0%; /* Adjust this value to move the positioned div up and down */
     text-align: inherit;
-    width: 1025px;
+    width: 100%;
     padding: 10px 10px 10px 10px;
     text-align: center;
-    font-size:30px
+    font-size:30px;
+    box-sizing: border-box;
 }
 .text4{
 
@@ -141,8 +144,8 @@ html, body {
     z-index: 0;
     margin: 0 auto;
     left: 0;
-    right: 550px;
-    top: 95%; /* Adjust this value to move the positioned div up and down */
+    right: 0;
+    top: 20%; /* Adjust this value to move the positioned div up and down */
     text-align: inherit;
     width: 500px;
     padding: 10px 10px 10px 10px;
@@ -155,9 +158,9 @@ html, body {
     position: relative;
     z-index: 0;
     margin: 0 auto;
-    left: 400px;
+    left: 0;
     right: 0;
-    top: 127%; /* Adjust this value to move the positioned div up and down */
+    top: 30%; /* Adjust this value to move the positioned div up and down */
     text-align: inherit;
     width: 500px;
     padding: 10px 10px 10px 10px;
@@ -172,7 +175,7 @@ html, body {
     margin: 0 auto;
     left: 0;
     right: 550px;
-    top: 167%; /* Adjust this value to move the positioned div up and down */
+    top: 40%; /* Adjust this value to move the positioned div up and down */
     text-align: inherit;
     width: 500px;
     padding: 10px 10px 10px 10px;
@@ -185,9 +188,9 @@ html, body {
     position: relative;
     z-index: 0;
     margin: 0 auto;
-    left: 400px;
+    left: 0;
     right: 0;
-    top: 200%; /* Adjust this value to move the positioned div up and down */
+    top: 50%; /* Adjust this value to move the positioned div up and down */
     text-align: inherit;
     width: 500px;
     padding: 10px 10px 10px 10px;
