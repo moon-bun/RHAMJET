@@ -72,7 +72,7 @@ html, body {
   width:15%;
   top:10%;
   margin-left: 85%;
-  margin-top: -90%;
+  margin-top: -10%;
   position: fixed;
 }
 
@@ -80,7 +80,7 @@ html, body {
   margin: auto;
   text-align: center;
   text-transform: uppercase;
-  width: 250px;
+  width: 190px;
 
 }
 
@@ -97,11 +97,11 @@ html, body {
     position: relative;
     z-index: 0;
     margin: 0 auto;
-    left: 0%;
+    left: 0;
     right: 0;
     top: 5%; /* Adjust this value to move the positioned div up and down */
     text-align: inherit;
-    width: 500px;
+    width: 800px;
     padding: 10px 10px 10px 10px;
     text-align: center;
     font-size:30px
@@ -116,7 +116,7 @@ html, body {
     right: 0;
     top: 10%; /* Adjust this value to move the positioned div up and down */
     text-align: inherit;
-    width: 500px;
+    width: 800px;
     padding: 10px 10px 10px 10px;
     text-align: center;
     font-size:30px
@@ -145,28 +145,14 @@ html, body {
     margin: 0 auto;
     left: 0;
     right: 0;
-    top: 20%; /* Adjust this value to move the positioned div up and down */
+    top: 15%; /* Adjust this value to move the positioned div up and down */
     text-align: inherit;
-    width: 500px;
+    width: 800px;
     padding: 10px 10px 10px 10px;
     text-align: center;
     font-size:30px
 }
-.text5{
 
-    background-color: #175676;
-    position: relative;
-    z-index: 0;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    top: 30%; /* Adjust this value to move the positioned div up and down */
-    text-align: inherit;
-    width: 500px;
-    padding: 10px 10px 10px 10px;
-    text-align: center;
-    font-size:30px
-}
 .text6{
 
     background-color: #175676;
@@ -175,9 +161,9 @@ html, body {
     margin: 0 auto;
     left: 0;
     right: 550px;
-    top: 40%; /* Adjust this value to move the positioned div up and down */
+    top: 20%; /* Adjust this value to move the positioned div up and down */
     text-align: inherit;
-    width: 500px;
+    width: 800px;
     padding: 10px 10px 10px 10px;
     text-align: center;
     font-size:30px
@@ -190,9 +176,9 @@ html, body {
     margin: 0 auto;
     left: 0;
     right: 0;
-    top: 50%; /* Adjust this value to move the positioned div up and down */
+    top: 25%; /* Adjust this value to move the positioned div up and down */
     text-align: inherit;
-    width: 500px;
+    width: 800px;
     padding: 10px 10px 10px 10px;
     text-align: center;
     font-size:30px
