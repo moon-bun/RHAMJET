@@ -77,19 +77,28 @@ html, body {
 
 
 nav li{
-    list-style: none;
-    margin-left: 30px;
-    margin-right:10px;
-    float:left;
-    padding;10px;
-    font-size:25px;
-    color:darkgreen;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline;
+  float: left;
+  display: block;
+  color: white;
+  font-family: verdana;
+  font-size: 20px;
+  padding: 10px;
+  background-color:#abdea9;
+  text-decoration: none;
 }
 nav a:link{
   text-decoration: none;
-  background-color: white;
-  display: block;
-
+  display: inline;
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 nav a:hover{
     text-decoration: underline;
@@ -108,7 +117,8 @@ h2{
   padding-top:20px;
 }
 h4{
-  background-color: forestgreen;
+  background-color:#23692e;
+;
   padding:5px;
 }
 
@@ -119,7 +129,7 @@ h5{
 th{
   text-align: center;
   padding:10px;
-  background-color: forestgreen;
+  background-color: #629c6b;
 }
 
 td{
