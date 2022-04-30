@@ -8,7 +8,7 @@ html, body {
     height: 100%;
     width: 100%;
   }
-  
+
   .sidenav {
     height: 100%;
     width: 160px;
@@ -20,7 +20,7 @@ html, body {
     overflow-x: hidden;
     padding-top: 20px;
   }
-  
+
   .sidenav ul a {
     padding: 6px 8px 6px 8px;
     text-decoration: none;
@@ -32,7 +32,7 @@ html, body {
   .sidenav ul a:hover{
     color: #f1f1f1;
   }
-  
+
   .dropdown {
     padding: 6px 8px 6px 8px;
     text-decoration: none;
@@ -41,11 +41,11 @@ html, body {
     display: block;
     list-style: none;
   }
-  
+
   .dropdown span:hover {
     color: #f1f1f1;
   }
-  
+
   .submenu{
     display: none;
     position: fixed;
@@ -55,11 +55,11 @@ html, body {
     list-style: none;
     border-radius: 0px 15px 15px 0px;
   }
-  
+
   .dropdown:hover .submenu {
     display: block;
   }
-  
+
   .header {
     height: 20%;
     text-align: center;
@@ -77,7 +77,7 @@ html, body {
     margin-right: 50px;
   }
 
-  .audit { 
+  .audit {
     margin-right: 50px;
     font-size: 18px;
     text-align: left;
@@ -88,4 +88,16 @@ html, body {
     border-radius: 15px;
     padding: 10px;
     margin-top: 10px;
+  }
+  a:link {
+    color:blue;
+  }
+  a:visited {
+
+  }
+  a:hover {
+    color:green
+  }
+  a:active {
+    color:yellow
   }
