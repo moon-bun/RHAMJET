@@ -70,10 +70,11 @@ html, body {
   font-size: 20px;
   padding:10px;
   margin: 90px;
+  font-size: 25px;
 }
 
 .main {
-  margin-left: 150px;
+  margin-left: 160px;
   margin-right: 50px;
   font-size: 28px;
   padding: 10px;
@@ -88,8 +89,11 @@ header {
   width: 1000px;
   padding: 10px;
   margin: 20px;
-  box-shadow: 5px 10px #C77EF7;
-  animation: blink 10s infinite;
+  animation: blink 18s infinite;
+  border-width:10px;
+  border-style: solid;
+  border-color: #D169CE;
+  border-radius: 15px;
 }
 
 footer {
