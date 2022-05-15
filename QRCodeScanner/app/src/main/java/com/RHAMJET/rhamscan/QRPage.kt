@@ -14,9 +14,7 @@ import com.budiyev.android.codescanner.AutoFocusMode
 import com.budiyev.android.codescanner.CodeScanner
 import com.budiyev.android.codescanner.CodeScannerView
 import com.budiyev.android.codescanner.DecodeCallback
-import com.budiyev.android.codescanner.ErrorCallback
 import com.budiyev.android.codescanner.ScanMode
-import java.util.*
 
 private const val CAMERA_REQUEST_CODE = 101
 
@@ -51,8 +49,8 @@ class QRPage : AppCompatActivity() {
                 runOnUiThread{
                     textView.text = it.text
                     linkBtn.setOnClickListener{
-                        val url = Intent(Intent.ACTION_VIEW, Uri.parse(textView))
-                        startActivity(url)
+                        //val url = Intent(Intent.ACTION_VIEW, Uri.parse(textView))
+                        //startActivity(url)
                     }
                 }
 
