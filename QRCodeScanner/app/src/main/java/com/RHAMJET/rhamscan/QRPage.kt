@@ -5,6 +5,7 @@ import android.content.pm.PackageManager
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
@@ -48,10 +49,6 @@ class QRPage : AppCompatActivity() {
             decodeCallback = DecodeCallback {
                 runOnUiThread{
                     textView.text = it.text
-                    linkBtn.setOnClickListener{
-                        //val url = Intent(Intent.ACTION_VIEW, Uri.parse(textView))
-                        //startActivity(url)
-                    }
                 }
 
             }
@@ -60,6 +57,22 @@ class QRPage : AppCompatActivity() {
             codeScanner.startPreview()
         }
     }
+    //To open new page with value of QR code
+    fun onSaveButonClick(view: View) {
+        //define the variables in new function
+        val textView = findViewById<TextView>(R.id.tv_textView)
+        val primaryKey = textView.text.toString()
+
+        //Open new page
+        val intent = Intent(this@QRPage, resultActivity::class.java)
+        //Create key value pair, calls "Key" in resultActivity and outputs primaryKey
+        intent.putExtra("Key", primaryKey)
+
+        //Start new page
+        startActivity(intent)
+
+    }
+
     override fun onResume() {
         super.onResume()
         codeScanner.startPreview()
