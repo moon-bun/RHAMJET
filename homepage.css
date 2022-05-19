@@ -66,6 +66,7 @@ html, body {
   margin-left: 110px;
   list-style: none;
   border-radius: 0px 15px 15px 0px;
+  text-indent: absolute
 }
 
 .dropdown:hover .submenu {

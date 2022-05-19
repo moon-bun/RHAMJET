@@ -1,0 +1,65 @@
+html, body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #EF8275;
+  overflow: auto;
+  resize: both;
+  height: 100%;
+  width: 100%;
+}
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav ul a {
+  padding: 6px 8px 6px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  list-style: none;
+}
+.sidenav ul li a:hover{
+  color: #f1f1f1;
+}
+
+.dropdown {
+  padding: 6px 8px 6px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  list-style: none;
+}
+
+.dropdown span:hover {
+  color: #f1f1f1;
+}
+
+.submenu{
+  display: none;
+  position: fixed;
+  background-color: #111;
+  margin-top: -60px;
+  margin-left: 110px;
+  list-style: none;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.dropdown:hover .submenu {
+  display: block;
+}
+
+.main {
+  margin-left: 65px;
+  font-size: 28px;
+}
