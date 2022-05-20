@@ -108,7 +108,7 @@ font-size:15px;
 }
 /* Change the link colour to #000000 (black) on hover to match my HR colour*/
 nav li a:hover {
-background-color: #E7717D;
+background-color: #DB7F67;
 }
 /* Add a grey right border to all list items, last item (last-child) */
 nav li{
