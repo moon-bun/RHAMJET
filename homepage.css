@@ -41,6 +41,9 @@ html, body {
   display: block;
   list-style: none;
 }
+.sidenav .rtext {
+  color: #F55353;
+}
 .sidenav ul li a:hover{
   color: #f1f1f1;
 }
@@ -97,6 +100,7 @@ html, body {
   padding-right: 20px;
   margin-left: 70px;
 }
+
 
 .main {
   margin-left: 80px;
