@@ -101,3 +101,72 @@ border-left: 1px solid #A6F29F;
 nav li:last-child {
 border-right:1px solid #A6F29F;
 }
+
+.heading {
+  background-color: #247BA0;
+  position: fixed;
+  z-index: 0;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-right: 0px;
+  margin-left: 260px;
+  text-align: inherit;
+  width: 1000px;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  font-size:15px;
+  border-top: 5px solid #FD5EA8;
+  border-right: 5px solid #E2C044;
+  border-left: 5px solid #D399FF;
+  border-bottom: 5px solid #F55353;
+  border-radius: 3px;
+}
+
+.pictures {
+  background: #143F6B;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  width:15%;
+  top:27%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 0px;
+  margin-left: 550px;
+  position: fixed;
+}
+
+.pictures figure {
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  width: 450px;
+
+}
+
+.pictures figure img {
+  border: 1px solid #143F6B;
+  border-radius: 20%;
+  box-shadow: gray 0 0 10px;
+  width: 450px;
+}
+
+.subheading {
+  background-color: #247BA0;
+  position: fixed;
+  z-index: 0;
+  margin-top: 640px;
+  margin-bottom: 50px;
+  margin-right: 0px;
+  margin-left: 260px;
+  text-align: inherit;
+  width: 1000px;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  font-size:15px;
+  border-top: 5px solid #FD5EA8;
+  border-right: 5px solid #E2C044;
+  border-left: 5px solid #D399FF;
+  border-bottom: 5px solid #F55353;
+  border-radius: 3px;
+}
