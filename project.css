@@ -134,6 +134,7 @@ border-right:1px solid #A6F29F;
   position:relative;
   left:270px;
   right: 0;
+  positon: fixed
 }
 
 .pictures {
@@ -174,5 +175,6 @@ border-right:1px solid #A6F29F;
   position:relative;
   left:270px;
   right: 0;
+  position:fixed
 }
 /* img source https://pixabay.com/illustrations/phone-art-wallpaper-background-7001771/ */
