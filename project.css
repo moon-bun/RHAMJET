@@ -69,9 +69,10 @@ html, body {
 
 
 .main {
-  margin-left: 180px;
-  margin-right: 80px;
-  font-size: 22px;
+  margin-left: 100px;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 /* Code Taken from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed */
 /* Drop down help from https://www.youtube.com/watch?v=wHFflWvii3M and https://www.w3schools.com/css/css_dropdowns.asp */
@@ -92,10 +93,11 @@ h4 {
 nav ul{
 list-style-type: none;
 margin:0 auto;
-margin-left: 133px;
+margin-left: 163px;
 overflow: hidden;
 background-color: #000000;
 border:1px solid #A6F29F;
+padding: 5px 5px 5px 5px;
 }
 nav li{
 float:left;
@@ -104,7 +106,7 @@ nav li a {
 display:block;
 color: #FFFFFF;
 text-align: center;
-padding:20px 20px;
+padding:20px 21.3px;
 text-decoration: none;
 align: center;
 font-family:"Lato", sans-serif;
