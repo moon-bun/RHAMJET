@@ -16,6 +16,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RhamScan">
         <activity
+            android:name=".resultActivityNew"
+            android:exported="false" />
+        <activity
             android:name=".resultActivity"
             android:exported="false" />
         <activity

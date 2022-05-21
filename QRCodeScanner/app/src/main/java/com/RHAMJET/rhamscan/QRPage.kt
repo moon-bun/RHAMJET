@@ -64,7 +64,7 @@ class QRPage : AppCompatActivity() {
         val primaryKey = textView.text.toString()
 
         //Open new page
-        val intent = Intent(this@QRPage, resultActivity::class.java)
+        val intent = Intent(this@QRPage, resultActivityNew::class.java)
         //Create key value pair, calls "Key" in resultActivity and outputs primaryKey
         intent.putExtra("Key", primaryKey)
 

@@ -40,5 +40,6 @@ dependencies {
 
 
     implementation 'com.github.yuriy-budiyev:code-scanner:2.1.2'
+    implementation 'com.readystatesoftware.sqliteasset:sqliteassethelper:+'
 }
 
