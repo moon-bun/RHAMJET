@@ -34,8 +34,8 @@ public class DatabaseAccess {
         }
     }
     //Query
-    private String getAddress(String name) {
-        String msg = getIntent().getStringExtra("Key");
+    public String getAddress(String msg) {
+        //String msg = getIntent().getStringExtra("Key");
         c=db.rawQuery("SELECT artName FROM artTable WHERE artID= '" +msg+"'",new String[]{});
         StringBuffer buffer = new StringBuffer();
         while (c.moveToNext()) {
