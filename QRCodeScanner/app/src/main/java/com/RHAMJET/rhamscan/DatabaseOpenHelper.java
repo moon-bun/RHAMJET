@@ -1,5 +1,7 @@
 package com.RHAMJET.rhamscan;
 
+import android.content.Context;
+
 import com.readystatesoftware.sqliteasset.SQLiteAssetHelper;
 
 public class DatabaseOpenHelper extends SQLiteAssetHelper {
