@@ -59,7 +59,44 @@ html, body {
   display: block;
 }
 
+.header {
+  height: 20%;
+  text-align: center;
+  background-color: rgb(36, 36, 36);
+  color: white;
+  font-size: 30px;
+  position: relative;
+  padding: 2px;
+}
+
 .main {
-  margin-left: 65px;
-  font-size: 28px;
+  margin-left: 160px;
+  font-size: 18px;
+  margin-left: 200px;
+  margin-right: 50px;
+}
+
+.textbox {
+  margin-right: 50px;
+  font-size: 18px;
+  text-align: left;
+  background-color: #808080;
+  border-width:10px;
+  border-style: solid;
+  border-color: #222222;
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 10px;
+}
+a:link {
+  color:blue;
+}
+a:visited {
+
+}
+a:hover {
+  color:green
+}
+a:active {
+  color:yellow
 }
