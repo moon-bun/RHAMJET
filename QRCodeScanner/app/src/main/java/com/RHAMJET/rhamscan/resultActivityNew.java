@@ -26,6 +26,7 @@ public class resultActivityNew extends AppCompatActivity {
         String value = databaseAccess.getAddress(msg);
 
         resultView.setText(value);
+        resultViewBody.setText(value);
 
         databaseAccess.close();
     }
