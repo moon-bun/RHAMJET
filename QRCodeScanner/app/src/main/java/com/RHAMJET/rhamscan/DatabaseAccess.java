@@ -1,10 +1,14 @@
 package com.RHAMJET.rhamscan;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class DatabaseAccess {
     private SQLiteOpenHelper openHelper;
@@ -34,15 +38,20 @@ public class DatabaseAccess {
         }
     }
     //Query
-    public String getAddress(String msg) {
+    public Map<String,String> getAddress(String msg) {
         //String msg = getIntent().getStringExtra("Key");
         c=db.rawQuery("SELECT artName, artDescription FROM artTable WHERE artID= '" +msg+"'",new String[]{});
-        StringBuffer buffer = new StringBuffer();
+        System.out.println();
+        //StringBuffer buffer = new StringBuffer();
+        Map result=new HashMap<String,String>();
         while (c.moveToNext()) {
-            String address = c.getString(0);
-            buffer.append("" + address);
+            @SuppressLint("Range") String address = c.getString(c.getColumnIndex("artName"));
+            @SuppressLint("Range") String description=c.getString(c.getColumnIndex("artDescription"));
+            result.put("ArtName",address);
+            result.put("Description",description);
+            //buffer.append("" + address);
         }
-        return buffer.toString();
+        return result;
     }
 
     private Intent getIntent() {

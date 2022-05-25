@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import java.util.Map;
+
 public class resultActivityNew extends AppCompatActivity {
 
 
@@ -23,10 +25,10 @@ public class resultActivityNew extends AppCompatActivity {
         DatabaseAccess databaseAccess = DatabaseAccess.getInstance(getApplicationContext());
         databaseAccess.open();
 
-        String value = databaseAccess.getAddress(msg);
+        Map<String,String> result= databaseAccess.getAddress(msg);
 
-        resultView.setText(value);
-        resultViewBody.setText(value);
+        resultView.setText(result.get("ArtName"));
+        resultViewBody.setText(result.get("Description"));
 
         databaseAccess.close();
     }
