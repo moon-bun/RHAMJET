@@ -158,16 +158,15 @@ border-left: 1px solid #A6F29F;
   flex-direction: column;
   width:15%;
   top:4%;
-  margin-left: 12%;
+  margin-left: 16%;
   margin-top: 20%;
   position: fixed;
 }
 
 .pictures figure {
   margin: auto;
-  text-align: center;
-  text-transform: uppercase;
-  width: 150px;
+  text-align: left;
+  width: 200px;
 
 }
 
@@ -175,7 +174,7 @@ border-left: 1px solid #A6F29F;
   border: 1px solid #143F6B;
   border-radius: 0%;
   box-shadow: gray 0 0 10px;
-  width: 300px;
+  width: 270px;
 
 }
 .ar {
