@@ -38,19 +38,31 @@ public class DatabaseAccess {
         }
     }
     //Query
-    public Map<String,String> getAddress(String msg) {
-        //String msg = getIntent().getStringExtra("Key");
+    public Map<String,Object> getAddress(String msg) {
+        Map result=new HashMap<String,Object>();
+        try {
+            //String msg = getIntent().getStringExtra("Key");
         c=db.rawQuery("SELECT artName, artDescription FROM artTable WHERE artID= '" +msg+"'",new String[]{});
         System.out.println();
         //StringBuffer buffer = new StringBuffer();
-        Map result=new HashMap<String,String>();
+
         while (c.moveToNext()) {
             @SuppressLint("Range") String address = c.getString(c.getColumnIndex("artName"));
             @SuppressLint("Range") String description=c.getString(c.getColumnIndex("artDescription"));
-            result.put("ArtName",address);
-            result.put("Description",description);
+
+                //@SuppressLint("Range") byte[] image = c.getBlob(c.getColumnIndex("artImage"));
+                result.put("ArtName", address);
+                result.put("Description", description);
+                //result.put("Image", image);
+                System.out.println("Values are set in the MAP::");
+
+
             //buffer.append("" + address);
         }
+        }catch (Exception ex2){
+        System.out.println("DB Java::");
+        ex2.printStackTrace();
+    }
         return result;
     }
 
