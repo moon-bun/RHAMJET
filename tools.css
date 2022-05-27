@@ -71,23 +71,24 @@ html, body {
   }
 
   .main {
-    margin-left: 160px;
-    font-size: 18px;
-    margin-left: 200px;
-    margin-right: 50px;
+
   }
 
-  .audit {
-    margin-right: 50px;
+  .topic {
+    margin-left: 600px;
     font-size: 18px;
-    text-align: left;
-    background-color: #808080;
+    text-align: center;
+    background-color: #ACACAC;
     border-width:10px;
     border-style: solid;
-    border-color: #222222;
+    border-top: 5px solid #F55353;
+    border-right: 5px solid #F39440;
+    border-left: 5px solid #26C485;
+    border-bottom: 5px solid #3891A6;
     border-radius: 15px;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
+    width:750px
   }
   a:link {
     color:blue;
