@@ -1,7 +1,7 @@
 html, body {
   font-family: "Lato", sans-serif;
   margin: 0;
-  padding: 0;
+  padding: 5px,0.5px;
   background-color: #143F6B;
   overflow: auto;
   resize: both;
@@ -59,6 +59,36 @@ html, body {
   display: block;
 }
 
+/*.sidenav ul:hover .submenu{
+  display: block;
+  position: fixed;
+  background-color: #111;
+  margin-top: -100px;
+  margin-left: 120px;
+}*/
+
+
+.main {
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/* Code Taken from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_fixed */
+/* Drop down help from https://www.youtube.com/watch?v=wHFflWvii3M and https://www.w3schools.com/css/css_dropdowns.asp */
+
+/* Fade in Logo Code taken from https://cssanimation.rocks/animating-hero-header/ */
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  text-align: center;
+}
+h4 {
+  margin-left: 0px;
+}
+
 nav ul{
 list-style-type: none;
 margin-left: 163px;
@@ -74,7 +104,7 @@ nav li a {
 display:block;
 color: #FFFFFF;
 text-align: center;
-padding:20px 97px;
+padding:20px 89.1px;
 text-decoration: none;
 align: center;
 font-family:"Lato", sans-serif;
@@ -96,33 +126,64 @@ border-left: 1px solid #A6F29F;
 nav li:last-child {
 border-right:1px solid #A6F29F;
 }
+.heading{
 
-.header {
-  height: 20%;
+  padding: 10px;
+  width: auto;
+  background-size:cover;
+  background-color: rgb(36,	36, 36);
+  color:white;
   text-align: center;
-  background-color: rgb(36, 36, 36);
-  color: white;
-  font-size: 30px;
-  position: relative;
-  padding: 2px;
+  font-size: 35px;
+  margin-left: 100px;
 }
 
-.main {
-  margin-left: 160px;
-  font-size: 18px;
+.about {
   margin-left: 200px;
-  margin-right: 50px;
+  font-size: 18px;
+  text-align: center;
+  background-color: #ACACAC;
+  border-width:10px;
+  border-style: solid;
+  border-top: 5px solid #F55353;
+  border-right: 5px solid #F39440;
+  border-left: 5px solid #26C485;
+  border-bottom: 5px solid #3891A6;
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 20px;
+  width:1175px
 }
 
-.textbox {
-  margin-right: 50px;
+.responsiblities {
+  margin-left: 200px;
   font-size: 18px;
   text-align: left;
   background-color: #ACACAC;
   border-width:10px;
   border-style: solid;
-  border-color: #222222;
+  border-top: 5px solid #F55353;
+  border-right: 5px solid #F39440;
+  border-left: 5px solid #26C485;
+  border-bottom: 5px solid #3891A6;
   border-radius: 15px;
   padding: 10px;
-  margin-top: 10px;
+  margin-top: 20px;
+  width:1175px
+}
+.skills {
+  margin-left: 200px;
+  font-size: 18px;
+  text-align: left;
+  background-color: #ACACAC;
+  border-width:10px;
+  border-style: solid;
+  border-top: 5px solid #F55353;
+  border-right: 5px solid #F39440;
+  border-left: 5px solid #26C485;
+  border-bottom: 5px solid #3891A6;
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 20px;
+  width:1175px
 }
