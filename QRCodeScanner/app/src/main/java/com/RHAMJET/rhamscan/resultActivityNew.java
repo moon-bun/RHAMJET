@@ -39,10 +39,10 @@ public class resultActivityNew extends AppCompatActivity {
         resultView.setText((String)result.get("ArtName"));
         ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
 
-            //byte[] image = (byte[]) result.get("Image");
-            //System.out.println("Imageeee:::"+image);
-            //Bitmap bmp = BitmapFactory.decodeByteArray(image, 0, image.length);
-            //imageView.setImageBitmap(bmp);
+            byte[] image = (byte[]) result.get("Image");
+            System.out.println("Imageeee:::"+image);
+            Bitmap bmp = BitmapFactory.decodeByteArray(image, 0, image.length);
+            imageView.setImageBitmap(bmp);
 
             resultViewBody.setText((String) result.get("Description"));
 

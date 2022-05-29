@@ -42,18 +42,16 @@ public class DatabaseAccess {
         Map result=new HashMap<String,Object>();
         try {
             //String msg = getIntent().getStringExtra("Key");
-        c=db.rawQuery("SELECT artName, artDescription FROM artTable WHERE artID= '" +msg+"'",new String[]{});
-        System.out.println();
-        //StringBuffer buffer = new StringBuffer();
+        c=db.rawQuery("SELECT artName, artDescription, artImage FROM artTable WHERE artID= '" +msg+"'",new String[]{});
 
         while (c.moveToNext()) {
             @SuppressLint("Range") String address = c.getString(c.getColumnIndex("artName"));
             @SuppressLint("Range") String description=c.getString(c.getColumnIndex("artDescription"));
 
-                //@SuppressLint("Range") byte[] image = c.getBlob(c.getColumnIndex("artImage"));
+                @SuppressLint("Range") byte[] image = c.getBlob(c.getColumnIndex("artImage"));
                 result.put("ArtName", address);
                 result.put("Description", description);
-                //result.put("Image", image);
+                result.put("Image", image);
                 System.out.println("Values are set in the MAP::");
 
 
